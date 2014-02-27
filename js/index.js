@@ -1,6 +1,4 @@
-
-
- $(function(){
+$(function(){
     $('.dropdown').hover(
       function(){
         $(this).addClass('open');
@@ -11,8 +9,7 @@
     );
   });
 
-
-  $(function(){
+$(function(){
     $('.dropdown favorite').hover(
       function(){
         $(this).addClass('open');
