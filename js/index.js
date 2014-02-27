@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 $(function(){
@@ -10,6 +11,8 @@ $(function(){
       $(this).removeClass('open');
     }
 =======
+=======
+>>>>>>> b13a697f42e8734396cf42eeacfea957475d3eb7
 $(function(){
     $('.dropdown').hover(
       function(){
@@ -23,6 +26,7 @@ $(function(){
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 $(function(){
   $('.dropdown favorite').hover(
@@ -33,6 +37,8 @@ $(function(){
       $(this).removeClass('open');
     }
 =======
+=======
+>>>>>>> b13a697f42e8734396cf42eeacfea957475d3eb7
 $(function(){
     $('.dropdown favorite').hover(
       function(){

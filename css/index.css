@@ -148,6 +148,71 @@
   list-style-type: none;
   margin: 0 2px;
 
+}
+
+.sitemap .dropdown-menu > li.theme-market a:hover{
+  background:#FF4500;
+  color:#FFFFFF;
+  border-radius:5px; 
+  padding:5px 8px;
+  width: 100px;
+}
+
+.sitemap .dropdown-menu > li.feature-shopping a:hover{
+  background: #3CB371;
+  color:#FFFFFF;
+  border-radius:5px; 
+  padding:5px 8px;
+  width: 100px;
+
+}
+.list ul li{
+  text-align: left; 
+    float: left;
+    padding:0 10px;
+   
+    color:white;
+}
+.sitemap .dropdown-menu > li.current-hot a:hover{
+  background: #FF00FF;
+  color:#FFFFFF;
+  border-radius:5px; 
+  padding:5px 8px;
+  width: 100px;
+}
+
+.sitemap .dropdown-menu > li.more-surprise a:hover{
+  background: #0000FF;
+  color:#FFFFFF;
+  border-radius:5px;
+  padding:5px 10px;
+  width: 100px;
+
+}
+
+.dropdown-menu .item{
+  font-size:20px;
+  font-weight: bold;
+ 
+
+}
+
+
+.dropdown-menu .list {
+  float: left;
+  min-width:20px;
+  padding: 0 10px;
+
+}
+
+.list ul{
+
+  display: inline; 
+  font-size:14px;
+  -webkit-text-size-adjust:none;
+  list-style-type: none;
+  margin: 0 2px;
+
 
 }
 .list ul li{
@@ -384,11 +449,14 @@
   height:24px ;
   background-image: url("../img/cat-1.jpg");
 }
+
 a{
   color: #666666;
   font:12px/1.5 tahoma,arial,sans-serif;
 }
 a:link{
+  color: #666666;
+}
 a:hover{
   text-decoration: none;
 }
