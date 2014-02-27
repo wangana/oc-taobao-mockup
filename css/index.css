@@ -15,18 +15,18 @@
 }
 
 .dropdown-toggle{
-	  padding: 0;
-	  border-width: 0 1px;
-	  border-style:  solid;
-	  border-color: #EEE;
-	  background: white;
+ padding: 0;
+ border-width: 0 1px;
+ border-style:  solid;
+ border-color: #EEE;
+ background: white;
 }
 .dropdown-menu{
-	  text-align: right;
-	  border-top:0;
-	  text-align:left;
-	  min-width:114px;
-	  height: 100px;
+ text-align: right;
+ border-top:0;
+ text-align:left;
+ min-width:114px;
+ height: 100px;
 
 }
 
@@ -39,7 +39,7 @@
 
 
 .clearfix{
-  margin-top: 20px;
+  margin: 20px auto;
 }
 .logo{
   width: 150px;
@@ -50,32 +50,118 @@
   background-size: 100%;
   background-repeat: no-repeat;
 }
+.navbar-collapse{
+  padding: 0;
+}
 .search{
-  margin:0 50px; 
+  margin:0 90px; 
   float: left;
   display: inline;
   padding-top: 15px;
 }
+.search-hd{
+  float: left;
+  padding: 2px;
+  background-color: #ff4500;
+}
+.J-searchtab{
+  float: left;
+  display: block; 
+  margin: 1px 0 0 1px;
+  padding: 0;  
+  width: 70px;
+  height: 40px;
+  text-align: center;   
+}
+#switchable{
+  list-style-type: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #f5f5f5;   
+}
+#searchtab-h{
+  display: block;
+  padding-left: 0; 
+  padding-top: 9px;  
+  text-align: center;
+  height: 100%;
+}
+#searchtab-h a:hover{
+  color: #6c6c6c;
+}
+#searchtab{
+  width: 20px;
+  text-align: center;
+  min-width: 70px;
+  height:40px;
+  padding: 9px 0 0 0; 
+  margin-top:0;
+  border-radius: 0;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.175);
+}
+#searchtab a:hover{
+  color: #6c6c6c;
+}
+.form-ground{
+  float: left;
+}
+.iconfont{
+  padding-top: 1px;
+  position: absolute;
+  display: inline;
+}
+.navbar-form{
+  padding: 0;
+  margin: 0;
+}
+.dropdown-toggle{
+  background-color:#f5f5f5 ;
+}
+.form-control{
+  height:40px ;
+  border-right: 0;
+  border-radius: 0;
+}
+.form-control:focus{
+  border-color: #f5f5f5;
+}
+.btn{
+  padding: 0;
+  margin: 0;
+}
+.btn btn-default{
+  float: left; 
+}
+.btn-default{
+  border-color: #ff4500;
+}
+.btn-default:hover{
+  border-color: #ff4500;  
+}
 .search-tips{
-  margin-top: 5px;
+  padding:3px;
+  height: 46px;
   float: left;
   font: 12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
 }
 .search-tips a:hover{
   color:#ff4500;
 }
-.search-hots a:hover{
-  color:#ff4500;
+.search-hots a:hover
+{  color:#ff4500;
 }
 .search-hots{
-  position: relative;
-  margin:0;
-  padding: 0;
+  position: absolute;
+  margin-top:5px;
+  display: block;
 }
 .search-hots ul{
+  margin: 0;
   float: left;
-  position: relative;
-}
+  padding-left: 0;
+  }
 .search-hots ul li{
   list-style-type: none;
   display: inline;
@@ -84,15 +170,26 @@
 .h{
   color:#ff4500; 
 }
-.more:hover{
-  color: #ffffff;
-  border-color: #ff4500;
-  background: #ff4500;
-  z-index: -1;
+.more{ 
+  background-color: #ffffff;
+  border: 1px solid #eee;
+  text-align: center;
+  height: 25px;  
+  padding: 3px;
 }
+.more-tip{
+  color:#DFDFDF;
+  font-size:8px; 
+}
+.more:hover a{
+  color: #ffffff;
+}
+.more:hover{ 
+  background-color: #ff4500;
+}
+
 .Qr-code{
-  margin: 10px 0px;
-  float: left;
+  float: right;
   text-align: center;
 }
 .Qr-code button{
@@ -120,6 +217,51 @@
 .Or-code img{
   display: block;
   position: relative;
+}
+.cat{
+  position: relative;
+  width: 150px;
+}
+.cat-hd{
+  text-align: center;
+  position: relative;
+  background:#ff4500;
+  padding: 5px;
+}
+.cat .cat-hd{
+  margin: 5px auto;
+  background-image: url("../img/cat-hd.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width:150px;
+  height: 40px;
+}
+.cat-menu{
+  position: relative;
+}
+.cat-menu li h4{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: tahoma,arial,Microsoft Yahei,\5b8b\4f53;
+  text-align: center;
+}
+.cat-menu-bd{
+  position: relative;
+  list-style-type: none;
+}
+.catone{
+  float: left;
+  background-position: center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  width: 30px;
+  height:24px ;
+  background-image: url("../img/cat-1.jpg");
+}
+a{
+  color: #666666;
+  font:12px/1.5 tahoma,arial,sans-serif;
 }
 a:link{
   color: #666666;
