@@ -1,19 +1,6 @@
-.container{
-  margin: 0 auto;
-  padding: 0;
-}
-
 .taobao {
-	font-size: 15px;
+  font-size: 15px;
 
-
-}
-
-
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  background-color: #FFF;
 }
 
 .dropdown-toggle{
@@ -22,6 +9,7 @@
  border-style:  solid;
  border-color: #EEE;
  background: #F5F5F5;
+
 }
 .dropdown-menu{
  text-align: right;
@@ -41,7 +29,6 @@
 
 
 }
-
 .massage .dropdown-menu{
   width: 266px;
   text-align: right;
@@ -52,13 +39,11 @@
   width: 80px;
   height: 80px;
 }
-
 .massage .dropdown-menu .usermader img{
   width: 36px;
   height: 36px;
   float: left;
 }
-
 
 .usermader ul li {
   list-style:none; 
@@ -81,17 +66,12 @@
   color:#FF00FF;
 }
 
-
-
-
 .sitemap .dropdown-menu > li.more-surprise {
   border-right: 1px solid #eee;
   width: 280px;
   border-right: 0;
   color:#0000FF;
-
 }
-
 .sitemap .dropdown-menu > li.theme-market a:hover{
   background:#FF4500;
   color:#FFFFFF;
@@ -99,7 +79,6 @@
   padding:5px 8px;
   width: 100px;
 }
-
 .sitemap .dropdown-menu > li.feature-shopping a:hover{
   background: #3CB371;
   color:#FFFFFF;
@@ -107,47 +86,6 @@
   padding:5px 8px;
   width: 100px;
 }
-
-.sitemap .dropdown-menu > li.current-hot a:hover{
-  background: #FF00FF;
-  color:#FFFFFF;
-  border-radius:5px; 
-  padding:5px 8px;
-  width: 100px;
-}
-
-.sitemap .dropdown-menu > li.more-surprise a:hover{
-  background: #0000FF;
-  color:#FFFFFF;
-  border-radius:5px;
-  padding:5px 10px;
-  width: 100px;
-
-}
-
-.dropdown-menu .item{
-  font-size:20px;
-  font-weight: bold;
- 
-
-}
-
-.sitemap .dropdown-menu > li.theme-market a:hover{
-  background:#FF4500;
-  color:#FFFFFF;
-  border-radius:5px; 
-  padding:5px 8px;
-  width: 100px;
-}
-
-.sitemap .dropdown-menu > li.feature-shopping a:hover{
-  background: #3CB371;
-  color:#FFFFFF;
-  border-radius:5px; 
-  padding:5px 8px;
-  width: 100px;
-}
-
 .sitemap .dropdown-menu > li.current-hot a:hover{
   background: #FF00FF;
   color:#FFFFFF;
@@ -179,7 +117,6 @@
   padding: 0 10px;
 
 }
-
 .list ul{
 
   display: inline; 
@@ -202,103 +139,16 @@
  clear:both;
 }
 
-.dropdown-menu .list {
-  float: left;
-  min-width:20px;
-  padding: 0 10px;
 
+.container{
+  margin: 0 auto;
+  padding: 0;
 }
-
-.list ul{
-
-  display: inline; 
-  font-size:14px;
-  -webkit-text-size-adjust:none;
-  list-style-type: none;
-  margin: 0 2px;
-
-}
-
-.sitemap .dropdown-menu > li.theme-market a:hover{
-  background:#FF4500;
-  color:#FFFFFF;
-  border-radius:5px; 
-  padding:5px 8px;
-  width: 100px;
-}
-
-.sitemap .dropdown-menu > li.feature-shopping a:hover{
-  background: #3CB371;
-  color:#FFFFFF;
-  border-radius:5px; 
-  padding:5px 8px;
-  width: 100px;
-
-}
-.list ul li{
-  text-align: left; 
-    float: left;
-    padding:0 10px;
-   
-    color:white;
-}
-.sitemap .dropdown-menu > li.current-hot a:hover{
-  background: #FF00FF;
-  color:#FFFFFF;
-  border-radius:5px; 
-  padding:5px 8px;
-  width: 100px;
-}
-
-.sitemap .dropdown-menu > li.more-surprise a:hover{
-  background: #0000FF;
-  color:#FFFFFF;
-  border-radius:5px;
-  padding:5px 10px;
-  width: 100px;
-
-}
-
-.dropdown-menu .item{
-  font-size:20px;
-  font-weight: bold;
- 
-
-}
-
-
-.dropdown-menu .list {
-  float: left;
-  min-width:20px;
-  padding: 0 10px;
-
-}
-
-.list ul{
-
-  display: inline; 
-  font-size:14px;
-  -webkit-text-size-adjust:none;
-  list-style-type: none;
-  margin: 0 2px;
-
-
-}
-.list ul li{
-  text-align: left; 
-    float: left;
-    padding:0 10px;
-   
-    color:white;
-
-}
-.clear{
- clear:both;
-}
-
 
 .clearfix{
   margin: 20px auto;
+  display: block;
+  position: relative;
 }
 .logo{
   width: 150px;
@@ -383,9 +233,6 @@
   border-right: 0;
   border-radius: 0;
 }
-.form-control:focus{
-  border-color: #f5f5f5;
-}
 .btn{
   padding: 0;
   margin: 0;
@@ -408,8 +255,8 @@
 .search-tips a:hover{
   color:#ff4500;
 }
-.search-hots a:hover
-{  color:#ff4500;
+.search-hots a:hover{
+  color:#ff4500;
 }
 .search-hots{
   position: absolute;
@@ -477,7 +324,6 @@
   display: block;
   position: relative;
 }
-
 .cat{
   position: relative;
   width: 150px;
@@ -519,14 +365,11 @@
   height:24px ;
   background-image: url("../img/cat-1.jpg");
 }
-
 a{
   color: #666666;
   font:12px/1.5 tahoma,arial,sans-serif;
 }
-a:link{
-  color: #666666;
-}
+
 a:hover{
   text-decoration: none;
 }
