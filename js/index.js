@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
 
 $(function(){
   $('.dropdown').hover(
@@ -11,11 +7,7 @@ $(function(){
     function(){
       $(this).removeClass('open');
     }
-=======
-=======
->>>>>>> b13a697f42e8734396cf42eeacfea957475d3eb7
-=======
->>>>>>> b13a697f42e8734396cf42eeacfea957475d3eb7
+
 $(function(){
     $('.dropdown').hover(
       function(){
@@ -24,13 +16,9 @@ $(function(){
       function(){
         $(this).removeClass('open');
       }
->>>>>>> b13a697f42e8734396cf42eeacfea957475d3eb7
+
     );
 });
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 $(function(){
   $('.dropdown favorite').hover(
@@ -40,11 +28,7 @@ $(function(){
     function(){
       $(this).removeClass('open');
     }
-=======
-=======
->>>>>>> b13a697f42e8734396cf42eeacfea957475d3eb7
-=======
->>>>>>> b13a697f42e8734396cf42eeacfea957475d3eb7
+
 $(function(){
     $('.dropdown favorite').hover(
       function(){
@@ -53,7 +37,7 @@ $(function(){
       function(){
         $(this).removeClass('open');
       }
->>>>>>> b13a697f42e8734396cf42eeacfea957475d3eb7
+
     );
 });
 
