@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 $(function(){
@@ -8,9 +9,20 @@ $(function(){
     function(){
       $(this).removeClass('open');
     }
+=======
+$(function(){
+    $('.dropdown').hover(
+      function(){
+        $(this).addClass('open');
+      },
+      function(){
+        $(this).removeClass('open');
+      }
+>>>>>>> b13a697f42e8734396cf42eeacfea957475d3eb7
     );
 });
 
+<<<<<<< HEAD
 
 $(function(){
   $('.dropdown favorite').hover(
@@ -20,6 +32,16 @@ $(function(){
     function(){
       $(this).removeClass('open');
     }
+=======
+$(function(){
+    $('.dropdown favorite').hover(
+      function(){
+        $(this).addClass('open');
+      },
+      function(){
+        $(this).removeClass('open');
+      }
+>>>>>>> b13a697f42e8734396cf42eeacfea957475d3eb7
     );
 });
 

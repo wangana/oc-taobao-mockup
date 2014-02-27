@@ -5,6 +5,8 @@
 
 .taobao {
 	font-size: 15px;
+
+
 }
 
 
@@ -19,7 +21,7 @@
  border-width: 0 1px;
  border-style:  solid;
  border-color: #EEE;
- background: white;
+ background: #F5F5F5;
 }
 .dropdown-menu{
  text-align: right;
@@ -27,15 +29,138 @@
  text-align:left;
  min-width:114px;
  height: 100px;
+ float: left;
+ position: absolute;
+
+
+}
+.sitemap .dropdown-menu {
+  width: 1180px;
+  
+  text-align:left;
+
 
 }
 
-.navbar-right .dropdown-menu{
-
-	left:0;
-	
+.massage .dropdown-menu{
+  width: 266px;
+  text-align: right;
+  height: 200px;
 }
 
+.massage .dropdown-menu .people-img{
+  width: 80px;
+  height: 80px;
+}
+
+.massage .dropdown-menu .usermader img{
+  width: 36px;
+  height: 36px;
+  float: left;
+}
+
+
+.usermader ul li {
+  list-style:none; 
+}
+.sitemap .dropdown-menu > li.theme-market{
+  border-right: 1px solid #eee;
+  width: 280px;
+  color:#FF4500;
+}
+
+.sitemap .dropdown-menu > li.feature-shopping{
+  border-right: 1px solid #eee;
+  width: 280px;
+  color:#3CB371;
+}
+
+.sitemap .dropdown-menu > li.current-hot{
+  border-right: 1px solid #eee;
+  width: 280px;
+  color:#FF00FF;
+}
+
+
+
+
+.sitemap .dropdown-menu > li.more-surprise {
+  border-right: 1px solid #eee;
+  width: 280px;
+  border-right: 0;
+  color:#0000FF;
+
+}
+
+.sitemap .dropdown-menu > li.theme-market a:hover{
+  background:#FF4500;
+  color:#FFFFFF;
+  border-radius:5px; 
+  padding:5px 8px;
+  width: 100px;
+}
+
+.sitemap .dropdown-menu > li.feature-shopping a:hover{
+  background: #3CB371;
+  color:#FFFFFF;
+  border-radius:5px; 
+  padding:5px 8px;
+  width: 100px;
+}
+
+.sitemap .dropdown-menu > li.current-hot a:hover{
+  background: #FF00FF;
+  color:#FFFFFF;
+  border-radius:5px; 
+  padding:5px 8px;
+  width: 100px;
+}
+
+.sitemap .dropdown-menu > li.more-surprise a:hover{
+  background: #0000FF;
+  color:#FFFFFF;
+  border-radius:5px;
+  padding:5px 10px;
+  width: 100px;
+
+}
+
+.dropdown-menu .item{
+  font-size:20px;
+  font-weight: bold;
+ 
+
+}
+
+
+.dropdown-menu .list {
+  float: left;
+  min-width:20px;
+  padding: 0 10px;
+
+}
+
+.list ul{
+
+  display: inline; 
+  font-size:14px;
+  -webkit-text-size-adjust:none;
+  list-style-type: none;
+  margin: 0 2px;
+
+
+}
+.list ul li{
+  text-align: left; 
+    float: left;
+    padding:0 10px;
+   
+    color:white;
+
+}
+.clear{
+ clear:both;
+}
 
 
 .clearfix{
@@ -264,8 +389,6 @@ a{
   font:12px/1.5 tahoma,arial,sans-serif;
 }
 a:link{
-  color: #666666;
-}
 a:hover{
   text-decoration: none;
 }
