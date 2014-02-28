@@ -49,7 +49,7 @@
 }
 .sitemap .dropdown-menu > li.theme-market{
   border-right: 1px solid #eee;
-  width: 280px;
+  width: 300px;
   color:#FF4500;
 }
 
@@ -136,6 +136,9 @@
     padding-left:0 5px;
     margin-top: 8px;
 
+}
+.list ul li a{
+   font: 13px;
 }
 .clear{
  clear:both;
