@@ -1,0 +1,41 @@
+.cat{
+  position: relative;
+  width: 150px;
+}
+.cat-hd{
+  text-align: center;
+  position: relative;
+  background:#ff4500;
+  padding: 5px;
+}
+.cat .cat-hd{
+  margin: 5px auto;
+  background-image: url("../img/cat-hd.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width:150px;
+  height: 40px;
+}
+.cat-menu{
+  position: relative;
+}
+.cat-menu li h4{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: tahoma,arial,Microsoft Yahei,\5b8b\4f53;
+  text-align: center;
+}
+.cat-menu-bd{
+  position: relative;
+  list-style-type: none;
+}
+.catone{
+  float: left;
+  background-position: center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  width: 30px;
+  height:24px ;
+  background-image: url("../img/cat-1.jpg");
+}
