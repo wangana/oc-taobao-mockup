@@ -36,15 +36,17 @@
 
 }
 .sitemap .dropdown-menu {
-  width: 1180px;
+  width: 1210px;
   
   text-align:left;
+
+  height: 200px;
 
 
 }
 
 .massage .dropdown-menu{
-  width: 266px;
+  width: 268px;
   text-align: right;
   height: 200px;
 }
@@ -61,13 +63,11 @@
 }
 
 
-.usermader ul li {
-  list-style:none; 
-}
 .sitemap .dropdown-menu > li.theme-market{
   border-right: 1px solid #eee;
   width: 280px;
   color:#FF4500;
+
 }
 
 .sitemap .dropdown-menu > li.feature-shopping{
@@ -126,9 +126,11 @@
 
 }
 
-.dropdown-menu .item{
+ .item{
   font-size:20px;
   font-weight: bold;
+  width: 300px;
+  
  
 
 }
@@ -137,8 +139,9 @@
 .dropdown-menu .list {
   float: left;
   min-width:20px;
-  padding: 0 10px;
-
+  padding-right: 0 2px;
+  width: 300px;
+  
 }
 
 .list ul{
@@ -150,15 +153,19 @@
   margin: 0 2px;
 
 
-}
-.list ul li{
-  text-align: left; 
-    float: left;
-    padding:0 10px;
-   
-    color:white;
 
 }
+.list ul li{
+    text-align: center;
+    float: left;
+    width:80px;
+    height: 26px; 
+    color:white;
+    padding-left:0 5px ;
+}
+
+
+
 .clear{
  clear:both;
 }
