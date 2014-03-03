@@ -11,8 +11,9 @@
   height: 116px;
 }
 .content{
-  margin: 0;
-  padding:0;
+  width: 100%;
+  display: inline;
+  margin-bottom: 25px;
 }
 a{
   color: #666666;

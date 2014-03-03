@@ -1,3 +1,6 @@
+.side{
+  float: left;
+}
 .cat{
   position: relative;
   width: 150px;
