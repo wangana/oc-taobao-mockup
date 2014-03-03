@@ -39,14 +39,12 @@
   width: 80px;
   height: 80px;
 }
-.massage .dropdown-menu .usermader img{
+.massage .dropdown-menu .usermader ul img{
   width: 36px;
   height: 36px;
   float: left;
 }
-.usermader ul li {
-  list-style:none; 
-}
+
 .sitemap .dropdown-menu > li.theme-market{
   border-right: 1px solid #eee;
   width: 300px;
@@ -144,3 +142,86 @@
 .clear{
  clear:both;
 }
+
+.usermader ul li {
+  list-style:none;
+
+}
+
+.usermader{
+  position: relative;
+  left:-6px;
+  bottom: 13px; 
+}
+
+.usermader .LeftButton{
+  height:12px;
+  width:15px;
+  background: #999999;
+  overflow:hidden;
+  float:left;
+  display:inline;
+  cursor:pointer;
+}
+
+.usermader .RightButton{
+  height:12px;
+  width:15px;
+  overflow:hidden;
+  float:left;
+  display:inline;
+  cursor:pointer;
+}
+
+.usermader .cont{
+  width:530px;
+  overflow:hidden;
+  float:left;
+}
+
+/*.user-info {
+  display: block;
+}*/
+
+.people-message p{
+  width: 100px;
+}
+
+.usermader ul{
+  padding:0;
+}
+
+.List2 {
+  width: 40px;
+  height: 18px;
+  float:left;
+  margin-top: 10px;
+  padding-left: 5px;
+
+}
+
+.List2 img{
+ float:left;
+ margin: 0;
+}
+
+
+.people-message p{
+  text-align: left;
+}
+
+.people-message a:hover{
+  color: #FF0000;
+}
+
+.people-message .account{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  text-align: right;
+}
+.people-message{
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
