@@ -1,6 +1,10 @@
+.side{
+  float: left;
+}
 .cat{
   position: relative;
   width: 150px;
+  box-shadow:1px 1px 0px #dfdfdf; 
 }
 .cat-hd{
   text-align: center;
@@ -19,12 +23,7 @@
   position: relative;
   margin: 0;
   padding: 0;
-}
-.cat-menu li h4{
-  font-size: 14px;
-  font-weight: 400;
-  font-family: tahoma,arial,Microsoft Yahei,\5b8b\4f53;
-  text-align: center;
+  border:1px solid #bfbfbf;
 }
 .cat-menu-bd{
   position: relative;
@@ -32,12 +31,45 @@
   margin: 0;
   padding:0;
 }
-.catone{
+.cat-menu-bd li{
+  margin: 0;
+  padding:0;
+  margin:0 10px; 
+  display: block;
+  vertical-align: middle;
+  height: 35px;
+  border-bottom: 1px solid #dfdfdf;
+}
+.cat-menu-bd li h3{
+  margin:0;
+  width: 72px;
+  height: 30px;
+  padding:8px 0;
+  font-size: 15px;
+  font-weight: 400;
+  display:inline-block; 
+  font-family: tahoma,arial,Microsoft Yahei,\5b8b\4f53;
+  color: #3c3c3c;
+}
+.cat-img{
+  display: inline;
   float: left;
+  width: 40px;
+  height:24px ;
+}
+.cat-img img{
+  margin-top: 3px;
   background-position: center;
   background-size: 80%;
   background-repeat: no-repeat;
-  width: 30px;
-  height:24px ;
-  background-image: url("../img/cat-1.jpg");
+  text-align: center;
+  margin-right:10px;  
+}
+.cat-menu-bd b{
+  margin:0;
+  padding: 3px 0;
+  display:inline-block; 
+  height: 31px;
+  color: #bfbfbf;
+  font-size: 50%;
 }

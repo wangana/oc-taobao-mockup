@@ -1,0 +1,55 @@
+.main{
+  float: left;
+  margin-left: 10px;
+}
+.J_Nav{
+  margin-bottom: 10px;
+  width: 1010px;
+  height: 39px;
+  border-bottom: 2px solid #f40;
+  overflow: hidden;
+}
+.main-1{
+  float: left;
+  display: inline;
+  width: 520px;
+}
+.carousel{
+  position: relative;
+  width: 520px;
+  height: 280px;
+  overflow: hidden;
+}
+.carousel-inner{
+  height: 100%;
+}
+.active{
+  width: 520px;
+  height: 280px;
+}
+.carousel-control.left{
+  background-image: linear-gradient(to right, rgba(253, 250, 250, 0) 0, rgba(0, 0, 0, 0.0001) 100%);
+}
+.carousel-control.right{
+  background-image: linear-gradient(to right, rgba(253, 250, 250, 0) 0, rgba(0, 0, 0, 0.0001) 100%);
+}
+.carousel-indicators{
+  background: rgba(255,255,255,.3);
+  width: 10%;
+  height: 17px;
+  margin-left:-5%;
+  margin-bottom: 0;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+.glyphicon.glyphicon-chevron-left{
+  width:30px;
+  height: 30px;
+  padding-top: 5px;
+  overflow: hidden;
+}
+.glyphicon.glyphicon-chevron-right{
+  width:30px;
+  height: 30px;
+  padding-top: 5px;
+}
