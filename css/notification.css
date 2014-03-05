@@ -1,8 +1,8 @@
 #notification{
   margin-bottom: 10px;
-  width: 290px;
+  width: 292px;
   height: 98px;
-  border:1px solid #eee;
+  border: 1px solid #eee;
   overflow: hidden;
 }
 #notification ul{
@@ -14,37 +14,61 @@
 #notification-hd{
 	position: relative;
 	height: 27px;
-    background:#f7f7f7;
+    background:#f7f7f7; 
+    border-bottom:1px solid #eee;      
 }
 #notification-hd li{
 	float:left;
 	margin: 0 auto;
-	padding: 0 ;
+	padding:0; 
+	width: 58px;
+	height: 27px; 
+	text-align: center;
+}
+.nav_on{
+	background:#ffffff;
+    border: 0;
+    font-weight:bold;
+}
+#notification-hd span:hover{
+   color: #ff4500;
 }
 #notification-hd li a{
 	float:left;
 	display:block;
-	padding:0;
+	padding:5px 0;
+	margin: 0;
+	width: 58px;
+	height: 27px; 
 	cursor:pointer;
 	text-decoration:none;
 }
+
 #notification-hd li a span{
 	float:left;
 	padding:0 15px 0 15px;
 	font-size:12px;
-	font-weight:bold;
 	color:#000000;
 	text-decoration:none;
 }
+
 #menu_con{
 	text-align:left;
 	clear:both;
 	height: 71px;
     padding:0;
+    margin-top: 10px;
 }
 #menu_con li{
 	float:left;
-	margin:0 auto;
+	margin-top:5px;
+	padding:0 7px 0 10px;
+}
+#menu_con li span{
+	float:left;	
+	line-height:12px;
+	color: #666666;
+    font:12px/1.5 tahoma,arial,sans-serif;
 }
 #menu_con li a{
 	display:block;
@@ -52,8 +76,7 @@
 	cursor:pointer;
 	padding-left:3px;
 }
-#menu_con li a span{
-	float:left;
-	padding:6px 10px 4px 10px;
-	line-height:12px;
+#menu_con li a:hover{
+	color:#ff4500;
 }
+

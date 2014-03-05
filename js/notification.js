@@ -1,10 +1,10 @@
 function qiehuan(num){
-  for(var id = 0;id<=9;id++)
+  for(var id = 0;id<=5;id++)
     {
 	  if(id==num)
 		{
 		  document.getElementById("qh_con"+id).style.display="block";
-		  document.getElementById("mynav"+id).className="nav_on";
+		  document.getElementById("mynav"+id).className="nav_on";		  
 		}
 		else
 		{
