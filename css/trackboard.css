@@ -1,0 +1,83 @@
+.track{
+  width:292px;
+  height: 140px;
+  border:1px solid #ddd;
+  padding:10px 17px;
+  background-image: url("../img/track-bg.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.track-bd{
+  position: relative;
+  margin-bottom: 10px;
+  height: 60px;
+  padding:5px 0 0 70px;
+}
+.track-bd a:hover{
+  color:#ff4500;
+}
+.MemberAvatar{
+  position: absolute;
+ top:0;
+ left: 0;
+ width: 60px;
+ height: 60px;
+ border-radius: 50%;
+ -webkit-border-radius:50%;
+}
+.MemberVip{
+  background-image: url("../img/VIP.jpg");
+  display: inline-block;
+  zoom:1;
+  width: 16px;
+  height: 16px;
+}
+.track-bd p{
+  margin-top: 5px;
+}
+.MemberPunch{
+  margin-right: 3px;
+  width: 105px;
+}
+.MemberPunch i{
+  background-image: url("../img/gold.jpg");
+  width: 18px;
+  height: 20px;
+  display: inline;
+  float: left;
+  margin:0 0 3px 3px; 
+}
+.MemberClub{
+  width: 78px;
+}
+.track-bd p a{
+  float: left;
+  display: block;
+  height: 28px;
+  text-align: center;
+  color: #f55732;
+  border:1px solid #fdb08e;
+  -webkit-border-radius:2px;
+  border-radius: 2px; 
+  background:#fff0e8;
+  padding-top:3px;
+}
+.track-bd p a:hover{
+  color:#ff4500;
+}
+.track-board a{
+  display: inline;
+  float: left;
+  margin-left: -1px;
+  width: 85px;
+  text-align: center;
+  border-left: 1px solid #eee;
+}
+.track-board a:hover{
+  color: #f40;
+}
+.track-board a strong{
+  display: block;
+  font-size: 14px;
+  color: #f40;
+}
