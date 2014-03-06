@@ -3,9 +3,9 @@
   margin-left: 10px;
 }
 .J_Nav{
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   width: 1010px;
-  height: 39px;
+  height: 41px;
   border-bottom: 2px solid #f40;
   overflow: hidden;
 }
@@ -53,3 +53,21 @@
   height: 30px;
   padding-top: 5px;
 }
+
+.main-c{
+  display: inline;
+  float: left;
+  width: 200px;
+  height: 530px;
+}
+.J-HdMainR{
+  display: inline;
+  float: left;
+  width: 290px;
+  background:#fff; 
+}
+
+
+
+
+
