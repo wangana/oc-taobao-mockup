@@ -34,7 +34,7 @@ $(document).ready(function()
   });
 
   $("#input").click(function(){
-    $(".iconfont").hide();
+    $(".glyphicon-search").hide();
   });
 
 });

@@ -65,12 +65,22 @@
 .form-ground{
   float: left;
 }
-.iconfont{
-  padding-top: 1px;
-  position: absolute;
-  display: inline;
+#input-wrap{
+  position: relative;
 }
-
+.glyphicon-search{
+  font-size: 10px;
+  padding-top: 15px;
+  padding-left: 10px;
+  color: #DFDFDF;
+  position: absolute;
+  display: inline;   
+}
+.microphone{
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
 .navbar-form{
   padding: 0;
   margin: 0;
