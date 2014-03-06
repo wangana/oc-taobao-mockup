@@ -1,0 +1,121 @@
+.hot-sale{
+  padding-top: 30px;
+  clear: both;
+}
+.sale-hd{
+  margin-bottom: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.sale-hd h4{
+  margin: 0;
+  padding:4px 0 0 0;
+  display: inline;
+  float: left;
+  width: 71px;
+  height: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+.sale-menu{
+  float: right;
+  display: block;
+  height: 20px;
+  line-height: 20px;
+  overflow: hidden;
+}
+.sale-menu a{
+  display: inline;
+  float: left;
+  margin-left:-1px;
+  padding: 0 10px; 
+  color: #000;
+  border-left: 1px solid #ddd;
+}
+.sale-menu a:hover{
+  color: #ff4500;
+}
+.hot-sale ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.sale-bd{
+  height: 436px;
+  overflow: hidden;
+}
+.sale-bd li{
+  display:inline;
+  float: left;
+  margin-bottom: 30px;
+  width: 14.28571%;
+  padding: 0;
+}
+.mod{
+  position: relative;
+  margin: 0 auto;
+  width: 140px;
+  height: 188px;
+  overflow: hidden;
+}
+.mod p{
+	margin:0 0 2px;
+}
+.mod .mod-hd img{
+  display: block;
+  margin: 0 auto;
+  width: 120px;
+  height: 120px;
+}
+.mod-hd strong{
+  display: block;
+  height: 20px;
+  line-height: 20px;
+  overflow: hidden;
+  font-weight: 400;
+}
+.sale-bd a:hover{
+  color: #ff4500;
+}
+.mod-bd{
+  color: #ff4500;
+}
+.mod-bd span{
+  float: left;
+  display: inline;
+  margin-right: 5px;
+  font-family: arial;
+}
+.mod-bd strong{
+	float: left;
+	margin-right: 6px;
+}
+.mod-bd i{
+  margin-top: 3px;
+  width: 26px;
+  height: 14px;
+  float: left;
+  background-image: url("../img/shipping.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.mod-ft{
+  color: #9c9c9c;
+  font-size: 12px;
+  clear: both;
+}
+.mod-ft span{
+  color: #9c9c9c;
+  text-decoration: line-through;
+}
+.mod-ft strong{
+  text-decoration: line-through;
+}
+.pipe{
+  padding:0 5px;
+  font-style: normal;
+  color: #eee;
+}
+.mod-ft em{
+  font-style: normal;
+}

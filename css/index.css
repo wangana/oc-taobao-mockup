@@ -23,4 +23,9 @@ a{
 a:hover{
   text-decoration: none;
 }
+.products-section{
+  width: 100%;
+  display: inline;
+  clear: both;
+}
 
