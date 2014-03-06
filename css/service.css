@@ -1,0 +1,69 @@
+.service{
+  width: 292px;
+  position: relative;
+  height: 280px;
+  background:#f4f4f4;
+  padding: 20px 0;
+}
+.service-hd{
+  position: relative;
+  padding: 0 16px;
+  margin: 0;
+}
+.service-hd h3{
+  font-size: 14px;
+  font: tahoma,arial,sans-serif;
+  font-weight: bold;
+  color: #666666;
+  width: 65px;
+  height: 14px; 
+  margin: 0;
+}
+.service-bd{
+	position: relative;
+	margin-top: 10px;
+	height: 238px;
+	padding: 0;
+}
+.service-bd-wrap{
+  margin-left:16px; 
+}
+.service-bd-wrap a:hover{
+  color:#ff4500;
+}
+.J_mod{
+  display: inline;
+  float: left;
+  margin: 0 10px 10px 0;
+  width: 56px;
+  height: 63px;
+  color: #9c9c9c;
+  background: #fff;
+  -webkit-border-radius:3px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+  outline: 0;
+}
+.J_mod .glyphicon{
+  margin: 6px 0 0 0;
+  color: #ff4500;
+  font-size: 22px;
+}
+.J_mod p{
+  margin: 0 auto;
+  padding: 0;
+  line-height:10px;
+}
+.mod-default{
+  color:#ccc;
+  cursor: default;
+}
+.service-bd-wrap .mod-default:hover{
+  color: #ccc;
+  cursor: default;
+}
+.mod-default i{
+  font-size: 20px;
+  font-weight: bold;
+}

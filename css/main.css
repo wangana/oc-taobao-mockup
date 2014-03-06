@@ -5,7 +5,7 @@
 .J_Nav{
   margin-bottom: 15px;
   width: 1010px;
-  height: 43px;
+  height: 41px;
   border-bottom: 2px solid #f40;
   overflow: hidden;
 }
@@ -67,12 +67,6 @@
   background:#fff; 
 }
 
-.service{
-  width: 292px;
-  position: relative;
-  height: 290px;
-  background:#f4f4f4;
-}
 
 
 
