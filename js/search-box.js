@@ -33,8 +33,12 @@ $(document).ready(function()
     }
   });
 
-  $("#input").click(function(){
+  $("#input").on("focus", function(){
     $(".glyphicon-search").hide();
+  });
+
+  $("#input").on("blur", function(){
+    $(".glyphicon-search").show();
   });
 
 });
