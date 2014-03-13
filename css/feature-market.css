@@ -1,0 +1,180 @@
+.modmenu-f, .modmenu-s{
+	border: 1px solid #EEE;
+	width: 395px;
+	padding: 10px;
+}
+
+
+.modmenu-bd {
+	overflow: hidden;
+}
+
+.products-section .mainbd{
+	display: inline;
+	float: left;
+	margin-top: 45px;
+	width:790px;
+}
+
+.modmenu-f .modmenu-hd .modmenu-hd-l i{
+	display: inline;
+	float: left;
+	margin: 6px 10px 0 0;
+	width: 3px;
+	height: 15px;
+	background: #F40;
+}
+
+.modmenu-s .modmenu-hd .modmenu-hd-l i{
+	display: inline;
+	float: left;
+	margin: 6px 10px 0 0;
+	width: 3px;
+	height: 15px;
+	background: #F40;
+}
+
+.modmenu-hd .modmenu-hd-l a{
+	font-size: 14px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+.modmenu-hd .modmenu-hd-l a:hover{
+	color: #FF0000;
+}
+
+.modmenu-bd-l .modl-cont img{
+	margin:0 auto;
+	margin-bottom:10px;
+}
+
+.modmenu-bd-l .modl-cont p{
+	display: block;
+	line-height: 20px;
+	overflow: hidden;
+	font-weight: 700;
+}
+
+
+
+.modmenu-bd-r .modr-cont p{
+	display: block;
+	line-height: 20px;
+	overflow: hidden;
+	font-weight: 700;
+
+}
+
+.modmenu-bd-l .modl-cont a:hover{
+	color: #FF0000;
+}
+
+.modmenu-bd-r .modr-cont a:hover{
+	color: #FF0000;
+}
+
+.modmenu-bd-l .modmenu-txt, .modmenu-bd-r .modmenu-txt b{
+	color:#DCDCDC;
+}
+
+.modmenu-bd-l .modmenu-txt, .modmenu-bd-r .modmenu-txt a:hover{
+	color: #FF0000;
+}
+
+
+.modmenu-f .modmenu-bd .modmenu-bd-l, .modmenu-bd-r {
+	display:inline;
+	float: left;
+	padding-right: 30px;
+
+}
+
+
+
+.modmenu-bd .modmenu-bd-l .modl-cont p{
+	padding:10px 0;
+	background:#F6F6F6;
+	cursor: pointer;
+}
+.modl-cont p strong{
+	display:block;
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+	padding: 0 33px;
+}
+
+.modl-cont p span{
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+	padding: 0 42px;
+	color: #9C9C9C;
+}
+
+.modmenu-s .modmenu-bd-l{
+	float:left;
+	padding-left: 15px;
+}
+
+.modmenu-s .modmenu-bd-r{
+	float:left;
+	padding-left: 6px;
+}
+
+.modmenu-f, .modmenu-s{
+	float: left;
+}
+.mod-wrap{
+	margin-top: 15px;
+}
+
+.modmenu-bd-r .mod-pic a{
+	float: left;
+}
+
+.modmenu-bd-r .mod-pic p{
+	text-align: center;
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+	margin: 12px 0;
+}
+
+.modmenu-bd-r .mod-pic a:hover{
+	color: #FF0000;
+}
+
+.modmenu-bd-r .modl-cont .mod-txt{
+
+	height: 79px;
+	border: 1px dashed #EEE;
+	border-bottom: 0;
+	overflow: hidden;
+	width:147px;
+}
+
+.modmenu-bd-r .modl-cont .mod-txt a{
+	float: left;
+	width:50%;
+	display: block;
+	line-height: 38px;
+	overflow: hidden;
+	border-width: 0 0 1px 1px;
+	border-style: dashed;
+	border-color: #EEE;
+	text-align: center;
+}
+
+.modmenu-bd-r .modl-cont .mod-txt a:hover{
+	color: #FF0000;
+}
+
+.modl-cont .mod-pic{
+	
+	height: 95px;
+    margin-bottom: 27px;
+}
