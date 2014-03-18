@@ -1,9 +1,19 @@
-.modmenu-f, .modmenu-s{
+
+
+
+
+.modmenu-f, .modmenu-s, .modmenu-t, .modmenu-fo{
 	border: 1px solid #EEE;
 	width: 395px;
 	padding: 10px;
+	float:left;
 }
-
+.modmenu-fo{
+	height: 287px;
+}
+.modmenu-f{
+	height: 290px;
+}
 
 .modmenu-bd {
 	overflow: hidden;
@@ -34,11 +44,36 @@
 	background: #F40;
 }
 
+.modmenu-t .modmenu-hd .modmenu-hd-l i{
+	display: inline;
+	float: left;
+	margin: 6px 10px 0 0;
+	width: 3px;
+	height: 15px;
+	background: #F40;
+}
+
+.modmenu-fo .modmenu-hd i{
+	display: inline;
+	float: left;
+	margin: 6px 10px 0 0;
+	width: 3px;
+	height: 15px;
+	background: #F40;
+}
 .modmenu-hd .modmenu-hd-l a{
 	font-size: 14px;
 	line-height: 30px;
 	font-weight: bold;
 }
+
+.modmenu-fo .modmenu-hd a{
+	font-size: 14px;
+	line-height: 30px;
+	font-weight: bold;
+
+} 
+
 
 .modmenu-hd .modmenu-hd-l a:hover{
 	color: #FF0000;
@@ -56,6 +91,11 @@
 	font-weight: 700;
 }
 
+.modmenu-bd-r .modr-cont p{
+	padding: 10px 0;
+    margin: 5px;
+}
+
 
 
 .modmenu-bd-r .modr-cont p{
@@ -66,6 +106,14 @@
 
 }
 
+.modmenu-t .modmenu-bd-l .modl-cont p{
+	width: 154px;
+}
+
+.modmenu-bd-r-e .mod-cont a:hover{
+	color: #FF0000;
+}
+
 .modmenu-bd-l .modl-cont a:hover{
 	color: #FF0000;
 }
@@ -74,14 +122,17 @@
 	color: #FF0000;
 }
 
+.modl-cont .mod-txt a:hover{
+	color: #FF0000;
+}
+
 .modmenu-bd-l .modmenu-txt, .modmenu-bd-r .modmenu-txt b{
 	color:#DCDCDC;
 }
 
-.modmenu-bd-l .modmenu-txt, .modmenu-bd-r .modmenu-txt a:hover{
-	color: #FF0000;
+.modmenu-t .mod-txt b{
+	color:#DCDCDC;
 }
-
 
 .modmenu-f .modmenu-bd .modmenu-bd-l, .modmenu-bd-r {
 	display:inline;
@@ -90,9 +141,7 @@
 
 }
 
-
-
-.modmenu-bd .modmenu-bd-l .modl-cont p{
+.modmenu-s .modl-cont p{
 	padding:10px 0;
 	background:#F6F6F6;
 	cursor: pointer;
@@ -124,9 +173,51 @@
 	padding-left: 6px;
 }
 
-.modmenu-f, .modmenu-s{
-	float: left;
+.modmenu-t .modmenu-bd-l{
+	float:left;
+	padding-left: 15px;
 }
+
+.modmenu-t .modmenu-bd-r-e{
+	display: inline;
+    float: left;
+    width: 50%;
+}
+
+.modmenu-bd-r-e .mod-cont{
+	border-left: 1px dashed #EEE;
+	overflow: hidden;
+}
+
+.modmenu-bd-r-e .mod-cont a{
+	display: block;
+    margin-top: -1px;
+    padding: 18px 0;
+    border-top: 1px dashed #EEE;
+    overflow: hidden;
+}
+
+.modmenu-bd-r-e .mod-cont a img{
+	display: inline;
+    float: right;
+    margin-top: -14px;
+}
+
+
+.modmenu-bd-r-e .mod-cont a p{
+	padding: 20px 0 0 10px;
+	text-align: left;
+}
+
+.
+.modmenu-bd-r-e .mod-cont a p strong{
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+}
+
+
 .mod-wrap{
 	margin-top: 15px;
 }
@@ -138,7 +229,7 @@
 .modmenu-bd-r .mod-pic p{
 	text-align: center;
 	display: block;
-	height: 20px;
+	
 	line-height: 20px;
 	overflow: hidden;
 	margin: 12px 0;
@@ -169,12 +260,68 @@
 	text-align: center;
 }
 
-.modmenu-bd-r .modl-cont .mod-txt a:hover{
-	color: #FF0000;
-}
-
 .modl-cont .mod-pic{
 	
 	height: 95px;
     margin-bottom: 27px;
 }
+
+.modmenu-fo .mod-bd .mod-f{
+	float: left;
+    display: inline;
+}
+
+.modmenu-fo .mod-bd .mod-cont{
+	margin-bottom: 10px;
+	height: 91px;
+	text-align: left;
+	background: #F6F6F6;
+}
+
+.modmenu-fo .mod-bd .mod-cont strong{
+	padding-left: 20px;
+	margin-top: 15px;
+}
+
+.modmenu-fo .mod-bd a:hover{
+	color: #FF0000;
+}
+
+.modmenu-fo .mod-bd .mod-cont span{
+	padding-left: 20px;
+	margin-top: 6px;
+}
+
+.mod-fto{
+	clear: both;
+	padding-top: 20px;
+}
+
+.mod-fto .mod-list{
+	border-bottom: 1px dashed #EEE;
+}
+
+.mod-fto .mod-list a{
+	display:block;
+	margin-bottom: 7px;
+}
+
+.mod-fto .mod-list a:hover{
+	color:#ff0000;
+}
+
+.mod-fto .mod-txt{
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+.mod-fto .mod-txt a{
+	margin-left: 9px;
+}
+
+.mod-fto .mod-txt b{
+	color: #eee;
+
+}
+
+
