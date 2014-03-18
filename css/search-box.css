@@ -126,7 +126,7 @@
   color:#ff4500;
 }
 .search-hots{
-  position: absolute;
+  position: relative;
   margin-top:5px;
   display: block;
 }
@@ -147,8 +147,11 @@
   background-color: #ffffff;
   border: 1px solid #eee;
   text-align: center;
-  height: 25px;  
-  padding: 3px;
+  margin-right: 0;
+  padding-left: 2px;
+  top:-1px;
+  right:30px;
+  position: absolute;
 }
 .more-tip{
   color:#DFDFDF;
