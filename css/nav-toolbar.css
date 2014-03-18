@@ -1,33 +1,84 @@
 .site-nav {
   font-size: 15px;
   padding: 0;
-  border-width: 0 1px;
-  border-style:  solid;
-  border-color: #EEE;
-  background: #F5F5F5;
+  margin: 0 auto;
+  height: 35px;
+  background: whiteSmoke;
 }
 
+.navbar-default{
+  z-index: 1000;
+  border:1px solid #eee;
+  background: whiteSmoke;
+  margin: 0;
+  padding:0;
+}
+.navbar{
+  min-height: 35px;
+}
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   background-color: #FFF;
 }
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
 
-.dropdown-menu{
- text-align: right;
- border-top:0;
- text-align:left;
- min-width:114px;
- height: 100px;
- float: left;
- position: absolute;
-
+  margin: 0 auto;
+  background: whiteSmoke;
+  width: 1170px;
 }
+.navbar-nav.navbar-right:last-child {
+  margin-right: 0px;
+}
+.nav-collapse ul{
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+.dropdown-menu{
+  z-index: 10001;
+  text-align: right;
+  border-top:0;
+  text-align:left;
+  min-width:80px;
+  float: left;
+  position: absolute;
+  border-left: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-radius: 0;
+  box-shadow:  0 6px 12px rgba(253, 250, 250, 0.175);
+  -webkit-box-shadow: 0 6px 12px rgba(253, 250, 250, 0.175);
+}
+.dropdown-menu > li > a{
+  padding:3px 8px;
+}
+.dropdown-menu > .people-img > a{
+  padding:0;
+}
+
 .sitemap .dropdown-menu {
-  width: 1220px;  
+  width: 1170px;  
   text-align:left;
   height: 200px;
 
+}
+.navbar-nav > li{
+  display: inline;
+  z-index: 10002;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+.navbar-default .navbar-nav > li > a{
+  padding: 0 6px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 12px;
+}
+.navbar-default .navbar-nav > li > a:hover{
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
 }
 .massage .dropdown-menu{
   width: 268px;
@@ -142,10 +193,12 @@
 .clear{
  clear:both;
 }
-
+.usermader ul{
+  margin: 0 7px;
+  padding: 0;
+}
 .usermader ul li {
   list-style:none;
-
 }
 
 .usermader{
