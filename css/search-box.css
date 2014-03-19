@@ -167,6 +167,8 @@
 .Qr-code{
   float: right;
   text-align: center;
+  position: relative;
+  display: inline;
 }
 .Qr-code button{
   float: left;
