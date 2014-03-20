@@ -27,6 +27,36 @@
   background-size: 80%;
   background-repeat: no-repeat;
 }
+#attr-switchable{
+  list-style-type: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #f5f5f5;   
+}
+#attr-searchtab-h{
+  display: block;
+  padding: 5px 0;  
+  text-align: center;
+  height: 100%;
+}
+#attr-searchtab-h a:hover{
+  color: #6c6c6c;
+}
+#attr-searchtab{
+  width: 20px;
+  text-align: center;
+  min-width: 70px;
+  height:29px;
+  padding: 5px 0 0 0; 
+  margin-top:0;
+  border-radius: 0;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.175);
+}
+#attr-searchtab a:hover{
+  color: #6c6c6c;
+}
 .attr-search{
   display: inline;
   width: 100%;
