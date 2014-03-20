@@ -12,9 +12,11 @@
   background: whiteSmoke;
   margin: 0;
   padding:0;
+  width: 100%;
 }
 .navbar{
   min-height: 35px;
+  position: fixed;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,

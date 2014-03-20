@@ -38,7 +38,12 @@ $(document).ready(function()
   });
 
   $("#input").on("blur", function(){
-    $(".glyphicon-search").show();
+    // alert($(this).val());
+    if($(this).val()==''){
+      $(".glyphicon-search").show();
+    }else{
+      $(".glyphicon-search").hide();
+    }   
   });
 
 });
