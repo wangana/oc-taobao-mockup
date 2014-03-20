@@ -1,0 +1,135 @@
+.products-section .mainside{
+	display: inline;
+	float: right;
+	width: 30.77311%
+}
+
+.tzh-bd::after, .tzh-hd::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.mainside .tzh-wrap {
+	margin: 0 0 10px 12px;
+	border-width: 2px 0 0 2px;
+	border-style: solid;
+	border-color: #DDD;
+	background-color: #F4F4F4;
+}
+
+.tzh-hd-xin>a{
+	display: inline;
+	float: right;
+	padding-top: 30px;
+    padding-right: 32px;
+
+}
+
+.tzh-hd-hui>a{
+	display: inline;
+	float: right;
+	padding-top: 30px;
+    padding-right: 32px;
+
+}
+
+.mainside .tzh-wrap{
+	position: relative;
+    margin: 46px 0;
+}
+
+.tzh-hd-hui a, .tzh-hd-xin a{
+	font-weight: bold;
+    font-size: 14px;
+    padding: 15px;
+    margin-top: 5px;
+}
+
+.tzh-hd-hui a strong, .tzh-hd-xin a strong {
+
+	color:#ff0000;
+
+}
+
+.tzh-hd-hui a:hover, .tzh-hd-xin a:hover{
+    color: #ff0000;
+}
+
+.tzh-hd-s, .tzh-hd-f{
+	margin:10px 0;
+}
+
+.tzh-hd-f .bd{
+	padding: 0 0 9px 9px;
+	border: 1px solid #EEE;
+	border-bottom: 0;
+	background: white;
+	overflow: hidden;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.tzh-hd-s .bd{
+	padding: 0 0 9px 9px;
+	border: 1px solid #EEE;
+	border-bottom: 0;
+	background: white;
+	overflow: hidden;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.tzh-hd-f .bd a{
+	position: relative;
+    display: inline;
+    float: left;
+    width: 33%;
+    margin-top: 10px;
+}
+
+.tzh-hd-s .bd a{
+	position: relative;
+    display: inline;
+    float: left;
+    width: 33%;
+    margin-top: 10px;
+}
+
+.tzh-hd-f .bd .mod-bd{
+	color:#9c9c9c;
+  	display: block;
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
+    margin-right: 9px;
+}
+
+.tzh-hd-f .bd .mod-bd strong{
+	font-weight: 400;
+}
+
+.tzh-hd-s .ft, .tzh-hd-f .ft{
+	height: 26px;
+    text-align: center;
+    border: 1px solid #EEE;
+    border-top: 0;
+    background: white;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.tzh-hd-s .ft a:hover, .tzh-hd-f .ft a:hover{
+	color: #ff0000;
+    
+}
+
+.tzh-hd-xin{
+	margin-left: -16px;
+}
+
+.tzh-hd-hui{
+	margin-left: -20px;
+
+}
