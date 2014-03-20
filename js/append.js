@@ -7,7 +7,7 @@ $(document).ready(function () {
 			$(".J-HdHead").css("z-index","99999");
 		}
 		else if ($(window).scrollTop() <= 130) {
-			$(".J-HdHead").fadeOut();
+			$(".J-HdHead").fadeOut(10);
 		}
 	});
 
