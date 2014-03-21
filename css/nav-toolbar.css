@@ -7,7 +7,7 @@
 }
 
 .navbar-default{
-  z-index: 1000;
+  z-index: 99999;
   border:1px solid #eee;
   background: whiteSmoke;
   margin: 0;
