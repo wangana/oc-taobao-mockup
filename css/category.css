@@ -4,7 +4,8 @@
 .cat{
   position: relative;
   width: 150px;
-  box-shadow:1px 1px 0px #dfdfdf; 
+  z-index: 5;
+  border: 1px solid #eee;
 }
 .cat-hd{
   text-align: center;
@@ -20,10 +21,12 @@
   height: 40px;
 }
 .cat-menu{
-  position: relative;
+  position: absolute;
   margin: 0;
   padding: 0;
-  border:1px solid #bfbfbf;
+  width: 149px;
+  z-index: 3;
+  box-shadow:1px 1px 2px #dfdfdf; 
 }
 .cat-menu-bd{
   position: relative;
@@ -32,12 +35,37 @@
   padding:0;
 }
 .cat-menu-bd li{
+  position: relative;
   margin: 0;
   padding:0;
-  margin:0 10px; 
+  +margin-top: -2px;
   display: block;
   vertical-align: middle;
   height: 34px;
+  border-right: none;
+  border-left:1px solid #bfbfbf;
+
+}
+.cat-menu-bd li:hover .category-info{
+  width: 150px;
+  z-index: 10;
+  border-top:1px solid;
+  border-left:1px solid; 
+  border-bottom: 1px solid;
+  border-color:#f40;
+  border-right:2px solid #fff;
+}
+.cat-menu-bd li:hover .menu-item{
+ border:1px solid #f40;
+ z-index: 3;
+ display: block;
+}
+.category-info{
+  height: 100%;
+  margin: 0;
+  padding-left: 10px;
+  position: relative;
+  cursor: pointer;
   border-bottom: 1px solid #dfdfdf;
 }
 .cat-menu-bd li h3{
@@ -65,11 +93,43 @@
   text-align: center;
   margin-right:10px;  
 }
-.cat-menu-bd b{
-  margin:0;
-  padding: 3px 0;
-  display:inline-block; 
+.cat .cat-menu-bd .category-info em {
+  position:absolute;
   height: 31px;
   color: #bfbfbf;
-  font-size: 50%;
+  font: 12px/18px "宋体";   
+  font-weight:bold;
+  top:9px; 
+  right:3px; 
+  width: 13px; 
+  height: 13px;
+}
+.cat .menu-item { 
+  position: absolute; 
+  z-index: 3;  
+  left:149px;
+  width:730px;
+  top: 0;
+  padding:0 0 0 2px;
+  background: #fff; 
+  border:1px solid; 
+  zoom:1;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=135,strength=4)";
+  *filter:progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=135,strength=4);
+}
+
+.cat .menu-item .area-in{
+  position: relative; 
+  z-index: 1;  
+  height: 150px;
+}
+.cat .menu-item .area-bg{ 
+  padding: 10px 0 10px 40px; 
+}
+.cat .menu-in{ 
+  display:none; 
+}
+.cat .menu-srot{
+  width: 100%; 
+  overflow: hidden;
 }
