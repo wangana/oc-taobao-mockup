@@ -1,13 +1,13 @@
 .side{
   float: left;
 }
-.cat{
+.side .cat{
   position: relative;
   width: 150px;
   z-index: 5;
   border: 1px solid #eee;
 }
-.cat-hd{
+.cat .cat-hd{
   text-align: center;
   position: relative;
 }
@@ -20,7 +20,7 @@
   width:150px;
   height: 40px;
 }
-.cat-menu{
+.cat .cat-menu{
   position: absolute;
   margin: 0;
   padding: 0;
@@ -28,13 +28,13 @@
   z-index: 3;
   box-shadow:1px 1px 2px #dfdfdf; 
 }
-.cat-menu-bd{
+.cat .cat-menu .cat-menu-bd{
   position: relative;
   list-style-type: none;
   margin: 0;
   padding:0;
 }
-.cat-menu-bd li{
+.cat .cat-menu .cat-menu-bd li{
   position: relative;
   margin: 0;
   padding:0;
@@ -45,7 +45,7 @@
   border-right: none;
   border-left:1px solid #bfbfbf;
 }
-.cat-menu-bd li:hover .category-info{
+.cat .cat-menu .cat-menu-bd li:hover .category-info{
   width: 150px;
   z-index: 10;
   border-top:1px solid;
@@ -54,12 +54,13 @@
   border-color:#f40;
   border-right:2px solid #fff;
 }
-.cat-menu-bd li:hover .menu-item{
- border:1px solid #f40;
- z-index: 3;
- display: block;
+.cat .cat-menu .cat-menu-bd li:hover .menu-item{
+  border:1px solid #f40;
+  z-index: 3;
+  display: block;
+  top: 0;
 }
-.cat-menu-bd li .category-info{
+.cat .cat-menu .cat-menu-bd li .category-info{
   height: 100%;
   margin: 0;
   padding-left: 10px;
@@ -67,7 +68,7 @@
   cursor: pointer;
   border-bottom: 1px solid #dfdfdf;
 }
-.cat-menu-bd li .category-info h3{
+.cat .cat-menu .cat-menu-bd li .category-info h3{
   position: absolute;
   margin:0;
   left: 45px;
@@ -80,14 +81,14 @@
   font-family: tahoma,arial,Microsoft Yahei,\5b8b\4f53;
   color: #3c3c3c;
 }
-.cat-img{
+.cat .cat-menu .cat-menu-bd li .category-info .cat-img{
   position: absolute;
   display: inline;
   float: left;
   width: 40px;
   height:24px ;
 }
-.cat-img img{
+.cat .cat-menu .cat-menu-bd li .category-info .cat-img img{
   margin-top: 3px;
   background-position: center;
   background-size: 80%;
@@ -105,12 +106,11 @@
   width: 13px; 
   height: 13px;
 }
-.cat .menu-item { 
+.cat .cat-menu .cat-menu-bd .menu-item { 
   position: absolute; 
   z-index: 3;  
   left:149px;
   width:731px;
-  top: 0;
   padding:0;
   background: #fff; 
   border:1px solid; 
@@ -118,12 +118,11 @@
   -ms-filter:"progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=135,strength=4)";
   *filter:progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=135,strength=4);
 }
-.cat .menu-in{ 
+.cat .menu-item{ 
   display:none; 
 }
 .cat .menu-item .area-in{
   position: relative; 
-  height: 350px;
   padding:15px;
 }
 .cat .menu-item .area-bg{ 
@@ -132,7 +131,7 @@
   display: block;
   border-bottom: 1px solid #eee;
 }
-.area-bg ul{
+.menu-item .area-in .area-bg ul{
   list-style-type: none;
   margin: 0;
   padding:0; 

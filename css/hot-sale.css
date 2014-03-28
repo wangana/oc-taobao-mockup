@@ -1,13 +1,13 @@
-.hot-sale{
+.products-section .hot-sale{
   padding-top: 30px;
   clear: both;
 }
-.sale-hd{
+.hot-sale .sale-hd{
   margin-bottom: 20px;
   height: 20px;
   overflow: hidden;
 }
-.sale-hd h4{
+.hot-sale .sale-hd h4{
   margin: 0;
   padding:4px 0 0 0;
   display: inline;
@@ -18,14 +18,14 @@
   font-weight: bold;
   cursor: default;
 }
-.sale-menu{
+.hot-sale .sale-hd .sale-menu{
   float: right;
   display: block;
   height: 20px;
   line-height: 20px;
   overflow: hidden;
 }
-.sale-menu a{
+.hot-sale .sale-hd .sale-menu a{
   display: inline;
   float: left;
   margin-left:-1px;
@@ -33,7 +33,7 @@
   color: #000;
   border-left: 1px solid #ddd;
 }
-.sale-menu a:hover{
+.hot-sale .sale-hd .sale-menu a:hover{
   color: #ff4500;
 }
 .hot-sale ul{
@@ -41,57 +41,55 @@
   margin: 0;
   padding: 0;
 }
-.sale-bd{
+.hot-sale .sale-bd{
   height: 436px;
   overflow: hidden;
 }
-.sale-bd li{
+.hot-sale .sale-bd li{
   display:inline;
   float: left;
   margin-bottom: 30px;
   width: 14.28571%;
   padding: 0;
 }
-.mod{
+.hot-sale .sale-bd li .mod{
   position: relative;
   margin: 0 auto;
   width: 140px;
   height: 188px;
   overflow: hidden;
 }
-.mod p{
+.hot-sale .sale-bd li .mod p{
 	margin:0 0 2px;
 }
-.mod .mod-hd img{
+.hot-sale .sale-bd li .mod .mod-hd img{
   display: block;
   margin: 0 auto;
   width: 120px;
   height: 120px;
 }
-.mod-hd strong{
+.hot-sale .sale-bd li .mod .mod-hd strong{
   display: block;
   height: 20px;
   line-height: 20px;
   overflow: hidden;
   font-weight: 400;
 }
-.sale-bd a:hover{
+
+.hot-sale .sale-bd li .mod .mod-bd{
   color: #ff4500;
 }
-.mod-bd{
-  color: #ff4500;
-}
-.mod-bd span{
+.hot-sale .sale-bd li .mod .mod-bd span{
   float: left;
   display: inline;
   margin-right: 5px;
   font-family: arial;
 }
-.mod-bd strong{
+.hot-sale .sale-bd li .mod .mod-bd strong{
 	float: left;
 	margin-right: 6px;
 }
-.mod-bd i{
+.hot-sale .sale-bd li .mod .mod-bd i{
   margin-top: 3px;
   width: 26px;
   height: 14px;
@@ -100,23 +98,23 @@
   background-repeat: no-repeat;
   background-size: 100%;
 }
-.mod-ft{
+.hot-sale .sale-bd li .mod .mod-ft{
   color: #9c9c9c;
   font-size: 12px;
   clear: both;
 }
-.mod-ft span{
+.hot-sale .sale-bd li .mod .mod-ft span{
   color: #9c9c9c;
   text-decoration: line-through;
 }
-.mod-ft strong{
+.hot-sale .sale-bd li .mod .mod-ft strong{
   text-decoration: line-through;
 }
-.pipe{
+.hot-sale .sale-bd li .mod .mod-ft .pipe{
   padding:0 5px;
   font-style: normal;
   color: #eee;
 }
-.mod-ft em{
+.hot-sale .sale-bd li .mod .mod-ft em{
   font-style: normal;
 }
