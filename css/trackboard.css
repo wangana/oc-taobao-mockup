@@ -1,4 +1,4 @@
-.track{
+.J-HdMainR .track{
   width:292px;
   height: 140px;
   border:1px solid #ddd;
@@ -7,16 +7,16 @@
   background-repeat: no-repeat;
   background-position: right top;
 }
-.track-bd{
+.track .track-bd{
   position: relative;
   margin-bottom: 10px;
   height: 60px;
   padding:5px 0 0 70px;
 }
-.track-bd a:hover{
+.track .track-bd a:hover{
   color:#ff4500;
 }
-.MemberAvatar{
+.track .track-bd .MemberAvatar{
   position: absolute;
  top:0;
  left: 0;
@@ -25,17 +25,17 @@
  border-radius: 50%;
  -webkit-border-radius:50%;
 }
-.MemberVip{
+.track .track-bd .MemberVip{
   background-image: url("../img/VIP.jpg");
   display: inline-block;
   zoom:1;
   width: 16px;
   height: 16px;
 }
-.track-bd p{
+.track .track-bd p{
   margin-top: 5px;
 }
-.MemberPunch{
+.track .track-bd p .MemberPunch{
   margin-right: 3px;
   width: 105px;
 }

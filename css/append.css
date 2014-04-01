@@ -10,13 +10,13 @@
   -webkit-box-shadow: rgba(0,0,0,.1) 0 1px 5px;
   display: none;
 }
-.append{
+.J-HdHead .append{
   display: block;
   position: relative;
   width: 1170px;
   margin: 0 auto;
 }
-.attr-logo{
+.J-HdHead .append .attr-logo{
   display: inline;
   width: 80px;
   height: 35px;
@@ -33,7 +33,7 @@
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color: #f5f5f5;   
+  background-color: #f5f5f5;  
 }
 #attr-searchtab-h{
   display: block;
@@ -64,14 +64,14 @@
 .attr-collapse{
   margin: 0 220px 0 240px;
 }
-.attr-search-hd{
+.attr-search .attr-search-hd{
   float: left;
   padding: 2px;
   background-color: #ff4500;
   z-index: 1;
   position: relative;
 }
-.attr-J-searchtab{
+.attr-search .attr-search-hd .attr-J-searchtab{
   float: left;
   display: block; 
   margin: 1px 0 0 1px;
@@ -90,7 +90,7 @@
   background-size: 50%;
   background-repeat: no-repeat;
 }
-.attr-from-ground{
+.attr-search .attr-search-hd .attr-J-searchtab .attr-from-ground{
   height: 29px;
 }
 .attr-from-control{

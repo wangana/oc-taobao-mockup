@@ -4,7 +4,7 @@ $(document).ready(function () {
 
 		if ($(window).scrollTop() > 130) {
 			$(".J-HdHead").fadeIn();
-			$(".J-HdHead").css("z-index","99999");
+			$(".J-HdHead").css("z-index","99998");
 		}
 		else if ($(window).scrollTop() <= 130) {
 			$(".J-HdHead").fadeOut(10);

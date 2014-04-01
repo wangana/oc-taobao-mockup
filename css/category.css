@@ -1,16 +1,54 @@
-.side{
-  float: left;
+@charset "utf-8";
+*{margin:0;padding:0;list-style-type:none;}
+
+.disn{display:none;}
+.disb{display:block;}
+
+/* homenav */
+.homenav{
+	width:149px;
+	float:left;
+	position:relative;
+	z-index:101;
 }
-.cat{
-  position: relative;
-  width: 150px;
-  box-shadow:1px 1px 0px #dfdfdf; 
+.homenav ul{
+	border-right:#eee 1px solid;
+	border-bottom:#eee 1px solid;
+	border-left:#eee 1px solid;
+  box-shadow: 1px 1px 2px #dfdfdf; 
 }
-.cat-hd{
+.homenav ul li{
+	height:34px;
+	position:relative;
+
+}
+.homenav ul li a:link,
+.homenav ul li a:active,
+.homenav ul li a:visited{
+	font-size:12px;
+	padding-left:12px;
+  margin-left:-2px; 
+  color:#000;
+}
+.homenav ul li a:hover{
+	font-size:12px;
+	padding-left:12px;
+	color:#000;
+}
+.homenav ul li a strong{
+	font-weight:normal;
+}
+.homenav ul li.over a:link,
+.homenav ul li.over a:active,
+.homenav ul li.over a:visited,
+.homenav ul li.over a:hover{
+	font-size:12px;
+	padding-left:12px;
+}
+
+.homenav .cat-hd{
   text-align: center;
   position: relative;
-}
-.cat .cat-hd{
   margin: 0 auto;
   background-image: url("../img/cat-hd.jpg");
   background-position: center;
@@ -19,29 +57,27 @@
   width:150px;
   height: 40px;
 }
-.cat-menu{
+.homenav .category-info{
+  height: 100%;
+  margin: 0;
   position: relative;
-  margin: 0;
-  padding: 0;
-  border:1px solid #bfbfbf;
-}
-.cat-menu-bd{
-  position: relative;
-  list-style-type: none;
-  margin: 0;
-  padding:0;
-}
-.cat-menu-bd li{
-  margin: 0;
-  padding:0;
-  margin:0 10px; 
-  display: block;
-  vertical-align: middle;
-  height: 34px;
+  cursor: pointer;
   border-bottom: 1px solid #dfdfdf;
+  width: 150px;  
 }
-.cat-menu-bd li h3{
+.homenav ul li.over .category-info:hover{
+  border-top: 1px solid;
+  border-left: 1px solid ;
+  border-bottom: 1px solid ;
+  color: #f40;
+  border-right: 3px solid #fff;
+  z-index: 300;
+}
+
+.homenav .category-info h3{
+  position: absolute;
   margin:0;
+  left: 45px;
   width: 72px;
   height: 30px;
   padding:8px 0;
@@ -51,25 +87,174 @@
   font-family: tahoma,arial,Microsoft Yahei,\5b8b\4f53;
   color: #3c3c3c;
 }
-.cat-img{
+.homenav .category-info .cat-img{
+  position: absolute;
   display: inline;
   float: left;
   width: 40px;
   height:24px ;
 }
-.cat-img img{
+.homenav .category-info .cat-img img{
   margin-top: 3px;
   background-position: center;
   background-size: 80%;
   background-repeat: no-repeat;
   text-align: center;
-  margin-right:10px;  
 }
-.cat-menu-bd b{
-  margin:0;
-  padding: 3px 0;
-  display:inline-block; 
+.homenav .category-info em {
+  position:absolute;
   height: 31px;
   color: #bfbfbf;
-  font-size: 50%;
+  font: 12px/18px "宋体";   
+  font-weight:bold;
+  top:9px; 
+  right:3px; 
+  width: 13px; 
+  height: 13px;
+}
+.homenav .submenubox  .subcate .area-in{
+  position: relative; 
+  padding:15px;
+}
+.homenav .submenubox  .subcate .area-bg{ 
+  overflow: hidden;
+  padding:5px 10px 15px;
+  display: block;
+  border-bottom: 1px solid #eee;
+}
+.homenav .submenubox  .subcate .area-in .area-bg ul{
+  list-style-type: none;
+  margin: 0;
+  padding:0; 
+}
+.homenav .submenubox  .subcate .area-bg ul li{
+  float: left;
+  border: none;
+  padding-left: 10px;
+  margin-right: 10px;  
+}
+.homenav .submenubox  .subcate .area-bg ul li a strong{
+  display: inline;
+  margin-right: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  float: left;
+}
+.homenav .submenubox  .subcate .area-bg ul li a em{
+  display: inline;
+  position: relative;
+  border:1px solid #e4e4e4;
+  color: #eee;
+  top:0;
+  left:3px;
+  padding:0 3px;
+  font: 8px/18px "宋体";
+  font-weight: bold;
+  float: left;
+  overflow: hidden;
+}
+.homenav .submenubox  .subcate .area-bd{
+  width: 100%;
+  margin:0 auto;
+  padding: 0;
+  display: block;
+}
+.homenav .submenubox  .subcate .area-bd ul{
+  list-style-type: none;
+  width: 350px;
+  float: left;
+  display: block;
+  overflow: hidden;
+  box-shadow: 1px 1px 1px #fff;
+}
+.homenav .submenubox  .subcate .area-bd .area-1{
+  border-right:1px solid #eee;  
+}
+.homenav .submenubox  .subcate .area-bd ul li{
+  border-left:none; 
+  display: inline;
+  padding:10px 0 ;
+  margin-bottom:5px; 
+  line-height: 24px;
+  overflow: hidden;
+}
+.homenav .submenubox  .subcate .area-bd ul li h4 a{
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  border: none;
+}
+.homenav .submenubox  .subcate .area-bd ul li .part{
+  display: block;
+  overflow: hidden;
+}
+
+.homenav .submenubox{
+	position:absolute;
+	left:149px;
+	top:0;
+	z-index: 100;
+	width:731px;
+	border:#f40 1px solid;
+	background:#fff;
+	float:left;
+	line-height:0;
+	overflow:hidden;
+}
+.homenav .submenuboxBottom{
+	top:auto;
+	bottom:1px;
+}
+.homenav .submenubox .subcate{
+	width:731px;
+	float:left;
+}
+.homenav .submenubox .subcate ul{
+	border:0;
+  padding: 0;
+  margin:0 auto;
+  background:#fff;
+  position:relative;
+}
+.homenav .submenubox .subcate ul li{
+	background:none;
+	height:auto;
+	line-height:18px;
+	padding:5px 0;
+	position:static;
+	z-index:auto;
+	cursor:default;
+}
+.homenav ul li.over .subcate ul li a:link,
+.homenav ul li.over .subcate ul li a:active,
+.homenav ul li.over .subcate ul li a:visited{
+	font-size:12px;
+	padding-left:12px;
+	color:#3c3c3c;
+}
+
+.homenav ul li.over .subcate ul li a:hover{
+	color:#f40;
+}
+.homenav ul li.last .submenubox .subcate{
+	width:420px;
+}
+.homenav ul li.last .submenubox .subcate ul{
+	background:none;
+	float:left;
+}
+.homenav ul li.last .submenubox .subcate ul li{
+	float:left;
+	width:300px;
+}
+.homenav ul li.last .subcate ul li a:link,
+.homenav ul li.last .subcate ul li a:active,
+.homenav ul li.last .subcate ul li a:visited{
+	font-size:12px;
+	padding-left:12px;
+	color:#3c3c3c;
+}
+.homenav ul li.last .subcate ul li a:hover{
+	color:#f40;
 }
