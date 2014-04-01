@@ -91,8 +91,9 @@
   position: absolute;
   display: inline;
   float: left;
-  width: 40px;
+  width: 30px;
   height:24px ;
+  margin-left: 5px;
 }
 .homenav .category-info .cat-img img{
   margin-top: 3px;

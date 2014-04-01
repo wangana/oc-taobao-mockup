@@ -1,7 +1,16 @@
+.clearfix{
+	width: 83%;
+	margin-left: 120px;
+}
 .content{
   width: 83%;
   display: inline;
   margin-bottom: 25px;
   float:left;
   margin-left: 120px; 
+}
+.products-section{
+  width: 83%;
+  display: inline;
+  clear: both;
 }
