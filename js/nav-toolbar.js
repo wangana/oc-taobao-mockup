@@ -20,7 +20,7 @@ $(function(){
     );
 });
 
-var Speed = 1; //速度(毫秒)
+/*var Speed = 1; //速度(毫秒)
 var Space = 5; //每次移动(px)
 var PageWidth = 528; //翻页宽度
 var fill = 0; //整体移位
@@ -28,8 +28,8 @@ var MoveLock = false;
 var MoveTimeObj;
 var Comp = 0;
 
-GetObj("List2").innerHTML = GetObj("List1").innerHTML;
-GetObj('ISL_Cont').scrollLeft = fill;
+//GetObj("List2").innerHTML = GetObj("List1").innerHTML;
+//GetObj('ISL_Cont').scrollLeft = fill;
 
 
 function GetObj(objName){
@@ -107,3 +107,4 @@ function CompScr(){
   setTimeout('CompScr()',Speed);
  }
 }
+*/
