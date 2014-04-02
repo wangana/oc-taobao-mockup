@@ -63,7 +63,7 @@
   position: relative;
   cursor: pointer;
   border-bottom: 1px solid #dfdfdf;
-  width: 150px;  
+  width: 148px;  
 }
 .homenav ul li.over .category-info:hover{
   border-top: 1px solid;
@@ -72,6 +72,7 @@
   color: #f40;
   border-right: 3px solid #fff;
   z-index: 300;
+  width: 150px;
 }
 
 .homenav .category-info h3{
@@ -193,7 +194,7 @@
 
 .homenav .submenubox{
 	position:absolute;
-	left:149px;
+	left:148px;
 	top:0;
 	z-index: 100;
 	width:731px;

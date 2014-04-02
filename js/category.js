@@ -1,4 +1,3 @@
-var delay = 200;
 var allCateTimer = null;
 
 $('div#nav > ul > li').hover(function(ev){
@@ -23,7 +22,7 @@ $('div#nav > ul > li').hover(function(ev){
 		if($(_this).find("div.subcate").size()<= 0){
 			async_topMenu(_this);
 		}
-	}, delay);
+	});
 	
 },function(){
 	
@@ -32,7 +31,7 @@ $('div#nav > ul > li').hover(function(ev){
 		clearTimeout(allCateTimer);
 	}
 	allCateTimer = setTimeout(function(){ 
-		$(_this).removeClass('over').find('div.submenubox').addClass('disn');}, delay);
+		$(_this).removeClass('over').find('div.submenubox').addClass('disn');});
 	}
 	
 );
