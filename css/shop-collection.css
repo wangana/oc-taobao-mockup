@@ -107,6 +107,7 @@
 
 .tzh-hd-f .bd .mod-bd strong{
 	font-weight: 400;
+
 }
 
 .tzh-hd-s .ft, .tzh-hd-f .ft{
@@ -133,3 +134,11 @@
 	margin-left: -20px;
 
 }
+
+.mod-ft{
+
+    text-decoration: line-through;
+    color: #9C9C9C;
+}
+
+
