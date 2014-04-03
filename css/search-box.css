@@ -7,9 +7,7 @@
   background-size: 100%;
   background-repeat: no-repeat;
 }
-.navbar-collapse{
-  padding: 0;
-}
+
 .search{
   margin:0 90px; 
   float: left;
@@ -116,13 +114,13 @@
 .btn-default:hover{
   border-color: #ff4500;  
 }
-.navbar-collapse .search-tips{
+ .search-tips{
   padding:3px;
   height: 46px;
   float: left;
   font: 12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
 }
-.navbar-collapse .search-tips a:hover{
+ .search-tips a:hover{
   color:#ff4500;
 }
 .search .search-hots{
@@ -144,12 +142,13 @@
   color:#ff4500; 
 }
 .search-hots ul .more{ 
+  clear: both;
   background-color: #ffffff;
   border: 1px solid #eee;
   text-align: center;
   margin-right: 0;
   padding-left: 2px;
-  top:-1px;
+  top:43px;
   right:30px;
   position: absolute;
 }

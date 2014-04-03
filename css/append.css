@@ -70,6 +70,7 @@
   background-color: #ff4500;
   z-index: 1;
   position: relative;
+  margin-left: 170px;
 }
 .attr-search .attr-search-hd .attr-J-searchtab{
   float: left;
